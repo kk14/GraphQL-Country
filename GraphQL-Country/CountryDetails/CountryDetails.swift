@@ -32,6 +32,6 @@ struct CountryDetails: View {
 struct CountryDetails_Previews: PreviewProvider {
     static let modelData = CountryListViewModel()
     static var previews: some View {
-        CountryDetails(modelData: modelData, country: modelData.mockCountries[0])
+        CountryDetails(modelData: modelData, country: mockCountries[0])
     }
 }

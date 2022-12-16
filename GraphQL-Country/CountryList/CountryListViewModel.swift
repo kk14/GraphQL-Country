@@ -12,9 +12,9 @@ protocol CountryListViewModelling: ObservableObject {
     var countries: [Country] { get set }
     func fetchCountries()
 }
+
 class CountryListViewModel: CountryListViewModelling {
     @Published var countries: [Country] = []
-    var mockCountries: [Country] = load("CountriesResponse.json")
     func fetchCountries() {
         Network.shared.apollo.fetch(query: GetAllCountryQuery()) { result in
             switch result {
@@ -30,11 +30,5 @@ class CountryListViewModel: CountryListViewModelling {
                 print("Failure")
             }
         }
-    }
-}
-class MockCountryListViewModel: CountryListViewModelling  {
-    var countries: [Country]  = []
-    func fetchCountries() {
-        self.countries = load("CountriesResponse.json")
     }
 }

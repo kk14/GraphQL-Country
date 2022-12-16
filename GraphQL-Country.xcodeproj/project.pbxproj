@@ -63,7 +63,6 @@
 			isa = PBXGroup;
 			children = (
 				DA1DC49B293E3C8900DC5143 /* Query.graphql */,
-				DA27ED8C294B625C00BE3AC2 /* CountriesResponse.json */,
 				DA1DC498293E3C0E00DC5143 /* schema.json */,
 				DA1DC49E293E412200DC5143 /* countries@current.graphqls */,
 				DA1DC4AC293E47FD00DC5143 /* Apollo.swift */,
@@ -105,6 +104,22 @@
 			path = CountryList;
 			sourceTree = "<group>";
 		};
+		DA27ED96294CE83C00BE3AC2 /* CountryDetails */ = {
+			isa = PBXGroup;
+			children = (
+				DA27ED84294B368D00BE3AC2 /* CountryDetails.swift */,
+			);
+			path = CountryDetails;
+			sourceTree = "<group>";
+		};
+		DA27ED97294CE85E00BE3AC2 /* HelperViews */ = {
+			isa = PBXGroup;
+			children = (
+				DA27ED94294CA9F900BE3AC2 /* FavouriteButton.swift */,
+			);
+			path = HelperViews;
+			sourceTree = "<group>";
+		};
 		DAAF7FEF293E0B6C009092FB = {
 			isa = PBXGroup;
 			children = (
@@ -127,10 +142,11 @@
 			isa = PBXGroup;
 			children = (
 				DAAF7FFB293E0B6C009092FB /* GraphQL_CountryApp.swift */,
+				DA27ED8C294B625C00BE3AC2 /* CountriesResponse.json */,
 				DA1DC49A293E3C5600DC5143 /* GraphQL */,
 				DA27ED93294B696C00BE3AC2 /* CountryList */,
-				DA27ED84294B368D00BE3AC2 /* CountryDetails.swift */,
-				DA27ED94294CA9F900BE3AC2 /* FavouriteButton.swift */,
+				DA27ED96294CE83C00BE3AC2 /* CountryDetails */,
+				DA27ED97294CE85E00BE3AC2 /* HelperViews */,
 				DA27ED92294B667B00BE3AC2 /* Model */,
 				DAAF7FFF293E0B6D009092FB /* Assets.xcassets */,
 				DAAF8001293E0B6D009092FB /* Preview Content */,
