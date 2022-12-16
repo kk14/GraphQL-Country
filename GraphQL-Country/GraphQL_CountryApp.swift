@@ -11,7 +11,7 @@ import SwiftUI
 struct GraphQL_CountryApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CountryList()
         }
     }
 }

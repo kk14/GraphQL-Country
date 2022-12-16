@@ -13,8 +13,15 @@
 		DA1DC49F293E412200DC5143 /* countries@current.graphqls in Resources */ = {isa = PBXBuildFile; fileRef = DA1DC49E293E412200DC5143 /* countries@current.graphqls */; };
 		DA1DC4AD293E47FD00DC5143 /* Apollo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1DC4AC293E47FD00DC5143 /* Apollo.swift */; };
 		DA1DC4B0293E49D100DC5143 /* CountriesAPI in Frameworks */ = {isa = PBXBuildFile; productRef = DA1DC4AF293E49D100DC5143 /* CountriesAPI */; };
+		DA27ED85294B368D00BE3AC2 /* CountryDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA27ED84294B368D00BE3AC2 /* CountryDetails.swift */; };
+		DA27ED87294B379000BE3AC2 /* CountryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA27ED86294B379000BE3AC2 /* CountryList.swift */; };
+		DA27ED89294B381300BE3AC2 /* CountryListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA27ED88294B381300BE3AC2 /* CountryListViewModel.swift */; };
+		DA27ED8B294B38B100BE3AC2 /* CountryListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA27ED8A294B38B100BE3AC2 /* CountryListRow.swift */; };
+		DA27ED8D294B625C00BE3AC2 /* CountriesResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = DA27ED8C294B625C00BE3AC2 /* CountriesResponse.json */; };
+		DA27ED8F294B642100BE3AC2 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA27ED8E294B642100BE3AC2 /* MockData.swift */; };
+		DA27ED91294B666A00BE3AC2 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA27ED90294B666A00BE3AC2 /* Country.swift */; };
+		DA27ED95294CA9F900BE3AC2 /* FavouriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA27ED94294CA9F900BE3AC2 /* FavouriteButton.swift */; };
 		DAAF7FFC293E0B6C009092FB /* GraphQL_CountryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAF7FFB293E0B6C009092FB /* GraphQL_CountryApp.swift */; };
-		DAAF7FFE293E0B6C009092FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAF7FFD293E0B6C009092FB /* ContentView.swift */; };
 		DAAF8000293E0B6D009092FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAAF7FFF293E0B6D009092FB /* Assets.xcassets */; };
 		DAAF8003293E0B6D009092FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAAF8002293E0B6D009092FB /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -25,9 +32,16 @@
 		DA1DC49E293E412200DC5143 /* countries@current.graphqls */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "countries@current.graphqls"; sourceTree = "<group>"; };
 		DA1DC4AB293E479100DC5143 /* CountriesAPI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = CountriesAPI; sourceTree = "<group>"; };
 		DA1DC4AC293E47FD00DC5143 /* Apollo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apollo.swift; sourceTree = "<group>"; };
+		DA27ED84294B368D00BE3AC2 /* CountryDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetails.swift; sourceTree = "<group>"; };
+		DA27ED86294B379000BE3AC2 /* CountryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryList.swift; sourceTree = "<group>"; };
+		DA27ED88294B381300BE3AC2 /* CountryListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListViewModel.swift; sourceTree = "<group>"; };
+		DA27ED8A294B38B100BE3AC2 /* CountryListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListRow.swift; sourceTree = "<group>"; };
+		DA27ED8C294B625C00BE3AC2 /* CountriesResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CountriesResponse.json; sourceTree = "<group>"; };
+		DA27ED8E294B642100BE3AC2 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		DA27ED90294B666A00BE3AC2 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		DA27ED94294CA9F900BE3AC2 /* FavouriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteButton.swift; sourceTree = "<group>"; };
 		DAAF7FF8293E0B6C009092FB /* GraphQL-Country.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GraphQL-Country.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAAF7FFB293E0B6C009092FB /* GraphQL_CountryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphQL_CountryApp.swift; sourceTree = "<group>"; };
-		DAAF7FFD293E0B6C009092FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DAAF7FFF293E0B6D009092FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAAF8002293E0B6D009092FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -49,6 +63,9 @@
 			isa = PBXGroup;
 			children = (
 				DA1DC49B293E3C8900DC5143 /* Query.graphql */,
+				DA27ED8C294B625C00BE3AC2 /* CountriesResponse.json */,
+				DA1DC498293E3C0E00DC5143 /* schema.json */,
+				DA1DC49E293E412200DC5143 /* countries@current.graphqls */,
 				DA1DC4AC293E47FD00DC5143 /* Apollo.swift */,
 			);
 			path = GraphQL;
@@ -67,6 +84,25 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA27ED92294B667B00BE3AC2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DA27ED8E294B642100BE3AC2 /* MockData.swift */,
+				DA27ED90294B666A00BE3AC2 /* Country.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DA27ED93294B696C00BE3AC2 /* CountryList */ = {
+			isa = PBXGroup;
+			children = (
+				DA27ED86294B379000BE3AC2 /* CountryList.swift */,
+				DA27ED8A294B38B100BE3AC2 /* CountryListRow.swift */,
+				DA27ED88294B381300BE3AC2 /* CountryListViewModel.swift */,
+			);
+			path = CountryList;
 			sourceTree = "<group>";
 		};
 		DAAF7FEF293E0B6C009092FB = {
@@ -90,11 +126,12 @@
 		DAAF7FFA293E0B6C009092FB /* GraphQL-Country */ = {
 			isa = PBXGroup;
 			children = (
-				DA1DC49A293E3C5600DC5143 /* GraphQL */,
-				DA1DC498293E3C0E00DC5143 /* schema.json */,
-				DA1DC49E293E412200DC5143 /* countries@current.graphqls */,
 				DAAF7FFB293E0B6C009092FB /* GraphQL_CountryApp.swift */,
-				DAAF7FFD293E0B6C009092FB /* ContentView.swift */,
+				DA1DC49A293E3C5600DC5143 /* GraphQL */,
+				DA27ED93294B696C00BE3AC2 /* CountryList */,
+				DA27ED84294B368D00BE3AC2 /* CountryDetails.swift */,
+				DA27ED94294CA9F900BE3AC2 /* FavouriteButton.swift */,
+				DA27ED92294B667B00BE3AC2 /* Model */,
 				DAAF7FFF293E0B6D009092FB /* Assets.xcassets */,
 				DAAF8001293E0B6D009092FB /* Preview Content */,
 			);
@@ -177,6 +214,7 @@
 				DA1DC49C293E3C8900DC5143 /* Query.graphql in Resources */,
 				DAAF8003293E0B6D009092FB /* Preview Assets.xcassets in Resources */,
 				DA1DC49F293E412200DC5143 /* countries@current.graphqls in Resources */,
+				DA27ED8D294B625C00BE3AC2 /* CountriesResponse.json in Resources */,
 				DA1DC499293E3C0E00DC5143 /* schema.json in Resources */,
 				DAAF8000293E0B6D009092FB /* Assets.xcassets in Resources */,
 			);
@@ -189,8 +227,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAAF7FFE293E0B6C009092FB /* ContentView.swift in Sources */,
+				DA27ED91294B666A00BE3AC2 /* Country.swift in Sources */,
+				DA27ED87294B379000BE3AC2 /* CountryList.swift in Sources */,
+				DA27ED85294B368D00BE3AC2 /* CountryDetails.swift in Sources */,
+				DA27ED95294CA9F900BE3AC2 /* FavouriteButton.swift in Sources */,
+				DA27ED89294B381300BE3AC2 /* CountryListViewModel.swift in Sources */,
 				DA1DC4AD293E47FD00DC5143 /* Apollo.swift in Sources */,
+				DA27ED8F294B642100BE3AC2 /* MockData.swift in Sources */,
+				DA27ED8B294B38B100BE3AC2 /* CountryListRow.swift in Sources */,
 				DAAF7FFC293E0B6C009092FB /* GraphQL_CountryApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

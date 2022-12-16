@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "677500B7-3D9B-4BC8-A3AF-2FE9BE13EF2E"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "003B1A9C-09CE-4032-B97A-BC0CCD3BD684"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GraphQL-Country/CountryList/CountryList.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "003B1A9C-09CE-4032-B97A-BC0CCD3BD684 - ce3e503050200568"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Toggle&lt;SwiftUI.Text&gt;, SwiftUI.ForEach&lt;Swift.Array&lt;GraphQL_Country.Country&gt;, Swift.String, SwiftUI.NavigationLink&lt;GraphQL_Country.CountryListRow, GraphQL_Country.CountryDetails&gt;&gt;)&gt; in closure #1 () -&gt; SwiftUI.List&lt;Swift.Never, SwiftUI.TupleView&lt;(SwiftUI.Toggle&lt;SwiftUI.Text&gt;, SwiftUI.ForEach&lt;Swift.Array&lt;GraphQL_Country.Country&gt;, Swift.String, SwiftUI.NavigationLink&lt;GraphQL_Country.CountryListRow, GraphQL_Country.CountryDetails&gt;&gt;)&gt;&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.navigationTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0 in GraphQL_Country.CountryList.body.getter : some"
+                  moduleName = "GraphQL-Country"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kanishkkumar/Desktop/Learning/GraphQL-Apollo/GraphQL-Country/GraphQL-Country/GraphQL-Country/CountryList/CountryList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "520">
+               </Location>
+               <Location
+                  uuid = "003B1A9C-09CE-4032-B97A-BC0CCD3BD684 - 8f92f16743b85ecb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (GraphQL_Country.Country) -&gt; SwiftUI.NavigationLink&lt;GraphQL_Country.CountryListRow, GraphQL_Country.CountryDetails&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Toggle&lt;SwiftUI.Text&gt;, SwiftUI.ForEach&lt;Swift.Array&lt;GraphQL_Country.Country&gt;, Swift.String, SwiftUI.NavigationLink&lt;GraphQL_Country.CountryListRow, GraphQL_Country.CountryDetails&gt;&gt;)&gt; in closure #1 () -&gt; SwiftUI.List&lt;Swift.Never, SwiftUI.TupleView&lt;(SwiftUI.Toggle&lt;SwiftUI.Text&gt;, SwiftUI.ForEach&lt;Swift.Array&lt;GraphQL_Country.Country&gt;, Swift.String, SwiftUI.NavigationLink&lt;GraphQL_Country.CountryListRow, GraphQL_Country.CountryDetails&gt;&gt;)&gt;&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.navigationTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0 in GraphQL_Country.CountryList.body.getter : some"
+                  moduleName = "GraphQL-Country"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kanishkkumar/Desktop/Learning/GraphQL-Apollo/GraphQL-Country/GraphQL-Country/GraphQL-Country/CountryList/CountryList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "444">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2A5F612D-172F-4C70-B200-0948DF984A53"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GraphQL-Country/CountryList/CountryList.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "filteredCountries"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0829FE8E-369B-4680-9E46-CCF1C94683CC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GraphQL-Country/CountryDetails.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "previews"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "088ACDD2-5E0F-48EE-9C0B-9467EC224B47"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GraphQL-Country/CountryDetails.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "countryIndex"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "088ACDD2-5E0F-48EE-9C0B-9467EC224B47 - c05d43162f9533ec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GraphQL_Country.CountryDetails.countryIndex.getter : Swift.Optional&lt;Swift.Int&gt;"
+                  moduleName = "GraphQL-Country"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kanishkkumar/Desktop/Learning/GraphQL-Apollo/GraphQL-Country/GraphQL-Country/GraphQL-Country/CountryDetails.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  uuid = "088ACDD2-5E0F-48EE-9C0B-9467EC224B47 - 724148e472833854"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (GraphQL_Country.Country) -&gt; Swift.Bool in GraphQL_Country.CountryDetails.countryIndex.getter : Swift.Optional&lt;Swift.Int&gt;"
+                  moduleName = "GraphQL-Country"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kanishkkumar/Desktop/Learning/GraphQL-Apollo/GraphQL-Country/GraphQL-Country/GraphQL-Country/CountryDetails.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
