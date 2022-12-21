@@ -7,70 +7,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "003B1A9C-09CE-4032-B97A-BC0CCD3BD684"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "GraphQL-Country/CountryList/CountryList.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
-            landmarkName = "body"
-            landmarkType = "24">
-            <Locations>
-               <Location
-                  uuid = "003B1A9C-09CE-4032-B97A-BC0CCD3BD684 - ce3e503050200568"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Toggle&lt;SwiftUI.Text&gt;, SwiftUI.ForEach&lt;Swift.Array&lt;GraphQL_Country.Country&gt;, Swift.String, SwiftUI.NavigationLink&lt;GraphQL_Country.CountryListRow, GraphQL_Country.CountryDetails&gt;&gt;)&gt; in closure #1 () -&gt; SwiftUI.List&lt;Swift.Never, SwiftUI.TupleView&lt;(SwiftUI.Toggle&lt;SwiftUI.Text&gt;, SwiftUI.ForEach&lt;Swift.Array&lt;GraphQL_Country.Country&gt;, Swift.String, SwiftUI.NavigationLink&lt;GraphQL_Country.CountryListRow, GraphQL_Country.CountryDetails&gt;&gt;)&gt;&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.navigationTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0 in GraphQL_Country.CountryList.body.getter : some"
-                  moduleName = "GraphQL-Country"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kanishkkumar/Desktop/Learning/GraphQL-Apollo/GraphQL-Country/GraphQL-Country/GraphQL-Country/CountryList/CountryList.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "26"
-                  endingLineNumber = "26"
-                  offsetFromSymbolStart = "520">
-               </Location>
-               <Location
-                  uuid = "003B1A9C-09CE-4032-B97A-BC0CCD3BD684 - 8f92f16743b85ecb"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #2 (GraphQL_Country.Country) -&gt; SwiftUI.NavigationLink&lt;GraphQL_Country.CountryListRow, GraphQL_Country.CountryDetails&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Toggle&lt;SwiftUI.Text&gt;, SwiftUI.ForEach&lt;Swift.Array&lt;GraphQL_Country.Country&gt;, Swift.String, SwiftUI.NavigationLink&lt;GraphQL_Country.CountryListRow, GraphQL_Country.CountryDetails&gt;&gt;)&gt; in closure #1 () -&gt; SwiftUI.List&lt;Swift.Never, SwiftUI.TupleView&lt;(SwiftUI.Toggle&lt;SwiftUI.Text&gt;, SwiftUI.ForEach&lt;Swift.Array&lt;GraphQL_Country.Country&gt;, Swift.String, SwiftUI.NavigationLink&lt;GraphQL_Country.CountryListRow, GraphQL_Country.CountryDetails&gt;&gt;)&gt;&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.navigationTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0 in GraphQL_Country.CountryList.body.getter : some"
-                  moduleName = "GraphQL-Country"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kanishkkumar/Desktop/Learning/GraphQL-Apollo/GraphQL-Country/GraphQL-Country/GraphQL-Country/CountryList/CountryList.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "27"
-                  endingLineNumber = "27"
-                  offsetFromSymbolStart = "444">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "2A5F612D-172F-4C70-B200-0948DF984A53"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "GraphQL-Country/CountryList/CountryList.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16"
-            landmarkName = "filteredCountries"
-            landmarkType = "24">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "0829FE8E-369B-4680-9E46-CCF1C94683CC"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -128,6 +64,134 @@
                   startingLineNumber = "16"
                   endingLineNumber = "16"
                   offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C76520ED-97C1-4D00-93F5-6264BD76118E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GraphQL-Country/HelperViews/CircularViewModifier.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "circeOverlay(withSize:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1D6518F4-2272-49E1-B828-FD6649492E22"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GraphQL-Country/HelperViews/CircularViewModifier.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "body(content:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E7D3B266-DDE7-4B4C-B0DC-8A435D0DCA2F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GraphQL-Country/CountryDetails/CountryDetails.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "E7D3B266-DDE7-4B4C-B0DC-8A435D0DCA2F - 224ffd24de96ba1a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GraphQL_Country.CountryDetails.body.getter : some"
+                  moduleName = "GraphQL-Country"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kanishkkumar/Desktop/Learning/GraphQL-Apollo/GraphQL-Country/GraphQL-Country/GraphQL-Country/CountryDetails/CountryDetails.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "604">
+               </Location>
+               <Location
+                  uuid = "E7D3B266-DDE7-4B4C-B0DC-8A435D0DCA2F - 2467784eece029cd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0 in GraphQL_Country.CountryDetails.body.getter : some"
+                  moduleName = "GraphQL-Country"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kanishkkumar/Desktop/Learning/GraphQL-Apollo/GraphQL-Country/GraphQL-Country/GraphQL-Country/CountryDetails/CountryDetails.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "600">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AAED39E6-1F6B-4970-BB62-F466CC66E4F2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GraphQL-Country/CountryDetails/CountryDetails.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "AAED39E6-1F6B-4970-BB62-F466CC66E4F2 - 2467784eece02ed4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0 in GraphQL_Country.CountryDetails.body.getter : some"
+                  moduleName = "GraphQL-Country"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kanishkkumar/Desktop/Learning/GraphQL-Apollo/GraphQL-Country/GraphQL-Country/GraphQL-Country/CountryDetails/CountryDetails.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "880">
+               </Location>
+               <Location
+                  uuid = "AAED39E6-1F6B-4970-BB62-F466CC66E4F2 - 38ef00bf576b40b6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (__C.CGSize) -&gt; () in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0 in GraphQL_Country.CountryDetails.body.getter : some"
+                  moduleName = "GraphQL-Country"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kanishkkumar/Desktop/Learning/GraphQL-Apollo/GraphQL-Country/GraphQL-Country/GraphQL-Country/CountryDetails/CountryDetails.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "80">
                </Location>
             </Locations>
          </BreakpointContent>

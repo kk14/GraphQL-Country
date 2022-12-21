@@ -21,6 +21,8 @@
 		DA27ED8F294B642100BE3AC2 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA27ED8E294B642100BE3AC2 /* MockData.swift */; };
 		DA27ED91294B666A00BE3AC2 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA27ED90294B666A00BE3AC2 /* Country.swift */; };
 		DA27ED95294CA9F900BE3AC2 /* FavouriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA27ED94294CA9F900BE3AC2 /* FavouriteButton.swift */; };
+		DA27ED9A2950947000BE3AC2 /* CircularViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA27ED992950947000BE3AC2 /* CircularViewModifier.swift */; };
+		DA27ED9C2950DC8B00BE3AC2 /* MeasureSizeViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA27ED9B2950DC8B00BE3AC2 /* MeasureSizeViewModifier.swift */; };
 		DAAF7FFC293E0B6C009092FB /* GraphQL_CountryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAF7FFB293E0B6C009092FB /* GraphQL_CountryApp.swift */; };
 		DAAF8000293E0B6D009092FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAAF7FFF293E0B6D009092FB /* Assets.xcassets */; };
 		DAAF8003293E0B6D009092FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAAF8002293E0B6D009092FB /* Preview Assets.xcassets */; };
@@ -40,6 +42,8 @@
 		DA27ED8E294B642100BE3AC2 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 		DA27ED90294B666A00BE3AC2 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		DA27ED94294CA9F900BE3AC2 /* FavouriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteButton.swift; sourceTree = "<group>"; };
+		DA27ED992950947000BE3AC2 /* CircularViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularViewModifier.swift; sourceTree = "<group>"; };
+		DA27ED9B2950DC8B00BE3AC2 /* MeasureSizeViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureSizeViewModifier.swift; sourceTree = "<group>"; };
 		DAAF7FF8293E0B6C009092FB /* GraphQL-Country.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GraphQL-Country.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAAF7FFB293E0B6C009092FB /* GraphQL_CountryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphQL_CountryApp.swift; sourceTree = "<group>"; };
 		DAAF7FFF293E0B6D009092FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -115,9 +119,19 @@
 		DA27ED97294CE85E00BE3AC2 /* HelperViews */ = {
 			isa = PBXGroup;
 			children = (
+				DA27ED992950947000BE3AC2 /* CircularViewModifier.swift */,
 				DA27ED94294CA9F900BE3AC2 /* FavouriteButton.swift */,
+				DA27ED9B2950DC8B00BE3AC2 /* MeasureSizeViewModifier.swift */,
 			);
 			path = HelperViews;
+			sourceTree = "<group>";
+		};
+		DA27ED98294CEBB500BE3AC2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DA27ED8C294B625C00BE3AC2 /* CountriesResponse.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		DAAF7FEF293E0B6C009092FB = {
@@ -142,7 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				DAAF7FFB293E0B6C009092FB /* GraphQL_CountryApp.swift */,
-				DA27ED8C294B625C00BE3AC2 /* CountriesResponse.json */,
+				DA27ED98294CEBB500BE3AC2 /* Resources */,
 				DA1DC49A293E3C5600DC5143 /* GraphQL */,
 				DA27ED93294B696C00BE3AC2 /* CountryList */,
 				DA27ED96294CE83C00BE3AC2 /* CountryDetails */,
@@ -249,9 +263,11 @@
 				DA27ED95294CA9F900BE3AC2 /* FavouriteButton.swift in Sources */,
 				DA27ED89294B381300BE3AC2 /* CountryListViewModel.swift in Sources */,
 				DA1DC4AD293E47FD00DC5143 /* Apollo.swift in Sources */,
+				DA27ED9A2950947000BE3AC2 /* CircularViewModifier.swift in Sources */,
 				DA27ED8F294B642100BE3AC2 /* MockData.swift in Sources */,
 				DA27ED8B294B38B100BE3AC2 /* CountryListRow.swift in Sources */,
 				DAAF7FFC293E0B6C009092FB /* GraphQL_CountryApp.swift in Sources */,
+				DA27ED9C2950DC8B00BE3AC2 /* MeasureSizeViewModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

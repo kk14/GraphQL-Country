@@ -13,3 +13,8 @@ struct Country: Codable {
     var emoji: String
     var isFavourite: Bool
 }
+extension Country: Identifiable {
+    var id: String {
+        code
+    }
+}
