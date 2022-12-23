@@ -15,6 +15,7 @@ protocol CountryListViewModelling: ObservableObject {
 
 class CountryListViewModel: CountryListViewModelling {
     @Published var countries: [Country] = []
+
     func fetchCountries() {
         Network.shared.apollo.fetch(query: GetAllCountryQuery()) { result in
             switch result {

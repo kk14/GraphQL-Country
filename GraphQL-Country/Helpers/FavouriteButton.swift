@@ -9,7 +9,7 @@ import SwiftUI
 
 struct FavouriteButton: View {
     @Binding var isSet: Bool
-    
+
     var body: some View {
         Button {
             isSet.toggle()

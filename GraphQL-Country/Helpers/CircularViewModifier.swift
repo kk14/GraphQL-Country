@@ -18,8 +18,8 @@ struct CicrcularViewModifier: ViewModifier {
             }
             .shadow(radius: 7)
     }
-    
 }
+
 extension View {
     func circeOverlay(withSize size: CGSize) -> some View {
         return modifier(CicrcularViewModifier(size: size))

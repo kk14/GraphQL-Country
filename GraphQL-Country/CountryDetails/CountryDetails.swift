@@ -7,16 +7,16 @@
 
 import SwiftUI
 
+//class SearchState: ObservableObject {
+//    @Published var shouldShowSearch: Bool = true
+//}
+
 struct CountryDetails: View {
-    @ObservedObject var modelData: CountryListViewModel
-    
-    var country: Country
-    var countryIndex: Int? {
-        modelData.countries.firstIndex(where: { $0.code == country.code })
-    }
-    
+    //@EnvironmentObject var searchState : SearchState
+    @Binding var country: Country
+
     @State var contentSize: CGSize = CGSizeZero
-    
+
     var body: some View {
         VStack {
             Text(country.emoji)
@@ -25,14 +25,12 @@ struct CountryDetails: View {
                     contentSize = size
                 })
                 .circeOverlay(withSize: CGSizeMake(contentSize.width + 16.0, contentSize.height + 16.0))
-            
+
             VStack(alignment: .leading) {
                 HStack {
                     Text(country.name)
                         .font(.largeTitle)
-                    if let countryIndex {
-                        FavouriteButton(isSet: $modelData.countries[countryIndex].isFavourite)
-                    }
+                    FavouriteButton(isSet: $country.isFavourite)
                     Spacer()
                 }
                 Text(country.code)
@@ -44,14 +42,21 @@ struct CountryDetails: View {
             Divider()
             Spacer()
         }
-        //.navigationTitle(country.name)
         .navigationBarTitleDisplayMode(.inline)
+        .onAppear {
+            //searchState.shouldShowSearch = false
+            print("DetailView appeared!")
+        }
+        .onDisappear {
+            //searchState.shouldShowSearch = true
+            print("DetailView disappeared!")
+        }
     }
 }
 
 struct CountryDetails_Previews: PreviewProvider {
     static let modelData = CountryListViewModel()
     static var previews: some View {
-        CountryDetails(modelData: modelData, country: mockCountries[1])
+        CountryDetails(country: .constant(mockCountries[0]))
     }
 }

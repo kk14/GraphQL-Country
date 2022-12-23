@@ -8,58 +8,49 @@
 import SwiftUI
 
 struct CountryList: View {
-    @StateObject private var viewModel = CountryListViewModel()
-    @State private var showFavourtiesOnly: Bool = false
-    @State private var searchText = ""
+    @Environment(\.isSearching) var isSearching
+    
+    @Binding var countries: [Country]
+    @Binding var searchText: String
 
-    var filteredCountries: [Country] {
-        viewModel.countries.filter {
-            (!showFavourtiesOnly || $0.isFavourite)
+    @State private var showFavourtiesOnly: Bool = false
+    
+    private var filteredCountries: [Binding<Country>] {
+        return $countries.filter {
+            if isSearching {
+                return $0.wrappedValue.name.contains(searchText)
+            } else {
+                return !showFavourtiesOnly || $0.wrappedValue.isFavourite
+            }
         }
     }
-    
     var body: some View {
-        NavigationView {
-            VStack {
-                List {
+        VStack {
+            List {
+                if !isSearching {
                     Toggle(isOn: $showFavourtiesOnly) {
                         Text("Favourties only")
                     }
-                    ForEach(searchResults, id: \.code) { country in
-                        NavigationLink {
-                            CountryDetails(modelData: viewModel, country: country)
-                        } label: {
-                            CountryListRow(country: country)
-                        }
+                }
+                ForEach(filteredCountries) { $country in
+                    NavigationLink(destination: CountryDetails(country: $country)) {
+                        CountryListRow(country: country)
                     }
                 }
             }
-            .navigationTitle("Countries (\(filteredCountries.count))")
         }
-        .searchable(text: $searchText, prompt: "Search country names") {
-            ForEach(searchResults, id: \.code) { country in
-                Text("\(country.name)").searchCompletion(country.name)
-            }
+        .navigationTitle("Countries (\(filteredCountries.count))")
+        .onAppear {
+            print("List appeared!")
         }
-        .onAppear{
-            viewModel.fetchCountries()
-        }
-        .environmentObject(viewModel)
-    }
-
-    var searchResults: [Country] {
-        guard !searchText.isEmpty else {
-            return filteredCountries
-        }
-        return filteredCountries.filter { country in
-            country.name.contains(searchText)
+        .onDisappear {
+            print("List disappeared!")
         }
     }
-
 }
 
 struct CountryList_Previews: PreviewProvider {
     static var previews: some View {
-        CountryList()
+        CountryList(countries: .constant(mockCountries), searchText: .constant(""))
     }
 }

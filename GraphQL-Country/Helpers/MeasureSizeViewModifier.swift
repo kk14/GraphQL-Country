@@ -8,23 +8,23 @@
 import SwiftUI
 
 struct MeasureSizeViewModifier: ViewModifier {
-    let callBack: (CGSize) -> (Void)
+    let callBack: (CGSize) -> Void
 
     func body(content: Content) -> some View {
         content
             .background {
                 GeometryReader { proxy in
                     Color.clear
-                        .onAppear() {
+                        .onAppear {
                             callBack(proxy.size)
                         }
                 }
             }
     }
 }
+
 extension View {
-    func measureSize(_ callBack: @escaping (CGSize) -> (Void)) -> some View {
+    func measureSize(_ callBack: @escaping (CGSize) -> Void) -> some View {
         modifier(MeasureSizeViewModifier(callBack: callBack))
-        
     }
 }

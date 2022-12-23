@@ -5,15 +5,14 @@
 //  Created by Kanishk Kumar on 15/12/2022.
 //
 
-import SwiftUI
 import CountriesAPI
+import SwiftUI
 
 struct CountryListRow: View {
-    
     var country: Country
-    
+
     var body: some View {
-        HStack{
+        HStack {
             Text(country.emoji)
                 .shadow(radius: 7)
                 .font(.title)
@@ -30,8 +29,8 @@ struct CountryListRow: View {
 struct CountryListRow_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            CountryListRow(country: mockCountries[0]) //favourite - true
-            CountryListRow(country: mockCountries[1]) //favourite - false
+            CountryListRow(country: mockCountries[0]) // favourite - true
+            CountryListRow(country: mockCountries[1]) // favourite - false
         }
     }
 }
