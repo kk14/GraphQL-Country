@@ -11,9 +11,11 @@ struct CountryList: View {
     @Environment(\.isSearching) var isSearching
     
     @Binding var countries: [Country]
-    @Binding var searchText: String
+    @State private var searchText: String = ""
 
     @State private var showFavourtiesOnly: Bool = false
+
+    @State private var savedSearches: [SavedSearch] = []
     
     private var filteredCountries: [Binding<Country>] {
         return $countries.filter {
@@ -39,6 +41,14 @@ struct CountryList: View {
                 }
             }
         }
+        .searchable(text: $searchText, prompt: "Search by country name", suggestions: {
+            ForEach(savedSearches, id: \.id) { savedSearch in
+                Text("\(savedSearch.text)").searchCompletion(savedSearch.text)
+            }
+        })
+        .onSubmit(of: .search) {
+            savedSearches.append(SavedSearch(text: searchText))
+        }
         .navigationTitle("Countries (\(filteredCountries.count))")
         .onAppear {
             print("List appeared!")
@@ -51,6 +61,6 @@ struct CountryList: View {
 
 struct CountryList_Previews: PreviewProvider {
     static var previews: some View {
-        CountryList(countries: .constant(mockCountries), searchText: .constant(""))
+        CountryList(countries: .constant(mockCountries))
     }
 }

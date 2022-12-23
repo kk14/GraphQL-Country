@@ -7,12 +7,7 @@
 
 import SwiftUI
 
-//class SearchState: ObservableObject {
-//    @Published var shouldShowSearch: Bool = true
-//}
-
 struct CountryDetails: View {
-    //@EnvironmentObject var searchState : SearchState
     @Binding var country: Country
 
     @State var contentSize: CGSize = CGSizeZero
@@ -44,11 +39,9 @@ struct CountryDetails: View {
         }
         .navigationBarTitleDisplayMode(.inline)
         .onAppear {
-            //searchState.shouldShowSearch = false
             print("DetailView appeared!")
         }
         .onDisappear {
-            //searchState.shouldShowSearch = true
             print("DetailView disappeared!")
         }
     }

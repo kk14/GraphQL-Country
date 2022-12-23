@@ -9,28 +9,15 @@ import SwiftUI
 
 struct CountryListContainerView: View {
     @StateObject private var viewModel = CountryListViewModel()
-    //@StateObject private var searchState = SearchState()
-
-    @State private var savedSearches: [SavedSearch] = []
-    @State private var searchText = ""
 
     var body: some View {
         NavigationView {
-            CountryList(countries: $viewModel.countries, searchText: $searchText)
-        }
-        .searchable(if: true, text: $searchText, prompt: "Search by country name", suggestions: {
-            ForEach(savedSearches, id: \.id) { savedSearch in
-                Text("\(savedSearch.text)").searchCompletion(savedSearch.text)
-            }
-        })
-        .onSubmit(of: .search) {
-            savedSearches.append(SavedSearch(text: searchText))
+            CountryList(countries: $viewModel.countries)
         }
         .onAppear {
             print("ContainerView appeared!")
             viewModel.fetchCountries()
         }
-        //.environmentObject(searchState)
         .onDisappear {
             print("ContainerView disappeared!")
         }
